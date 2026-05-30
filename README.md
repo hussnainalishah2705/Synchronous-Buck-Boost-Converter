@@ -9,8 +9,10 @@ A bidirectional, four-switch buck-boost DC-DC converter circuit designed and sim
 * **Input Voltage (VSOURCE):** 5V DC
 * **Inductor (L3):** 33µH
 * **Output Filtering (C12, C3):** Dual 470µF capacitors in parallel
-* **Gate Drivers:** IR2104 Half-Bridge Drivers (with integrated dead-time control)
-* **Bootstrap Circuitry:** 0.1µF capacitors and fast-recovery diodes for high-side floating gate drive.
+* **MOSFTE:** IRLZ44N x4 as Q1, Q2, Q3 & Q4
+* **Gate Drivers:** IR2104 Half-Bridge Drivers (with integrated dead-time control) which is connected with +12V VCC.
+* **Bootstrap Circuitry:** 0.1µF capacitors and fast-recovery diodes for high-side floating gate drive
+* **Pulse Voltage Source:** We've used pulse voltage source as V3 & V4 for MOSFET gate switching which will be generating square waves of 5V. 
 
 ---
 
