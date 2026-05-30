@@ -18,15 +18,15 @@ A bidirectional, four-switch buck-boost DC-DC converter circuit designed and sim
 
 ## Operating Modes
 
-This circuit is divided into two operational halves, controlled via independent PWM pulse generators (V3 and V4):
+This circuit is divided into two operational halves, controlled via independent PWM pulse generators (V3 & V4):
 
-### 1. Buck Mode (Step-Down)
-* **Control:** Q1 is switching (PWM), Q2 is off, Q3 is kept constantly ON, and Q4 is kept constantly OFF.
-* **Result:** The circuit acts as a standard buck converter, reducing the voltage across the output capacitors (C12, C3).
-
-### 2. Boost Mode (Step-Up)
+### 1. Boost Mode (Step-Up)
 * **Control:** Q1 is kept constantly ON, Q2 is kept constantly OFF, Q3 is off, and Q4 is switching (PWM).
 * **Result:** The circuit operates as a boost converter, stepping up the 5V input to a higher voltage at the output load.
+* 
+### 2. Buck Mode (Step-Down)
+* **Control:** Q1 is switching (PWM), Q2 is off, Q3 is kept constantly ON, and Q4 is kept constantly OFF.
+* **Result:** The circuit acts as a standard buck converter, reducing the voltage across the output capacitors (C12, C3).
 
 ---
 
