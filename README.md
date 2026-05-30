@@ -30,6 +30,10 @@ This circuit is divided into two operational halves, controlled via independent 
 * **Control:** Q1 is switching (PWM), Q2 is off, Q3 is kept constantly ON, and Q4 is kept constantly OFF.
 * **Result:** The circuit acts as a standard buck converter, reducing the voltage across the output capacitors (C12, C3).
 
+### 3. Pulse Voltage Source Properties: 
+* **V3:** Initial Value = 0V, Pulse Value = 5V, Delay Time = 0, Rise/Fall Time = 50n, Pulse Width = 7.5u, Period = 10u
+* **V4:** Initial Value = 0V, Pulse Value = 5V, Delay Time = 2.5u, Rise/Fall Time = 50n, Pulse Width = 2.5u, Period = 10u
+
 ---
 
 ## Component Selection & Design Parameters
