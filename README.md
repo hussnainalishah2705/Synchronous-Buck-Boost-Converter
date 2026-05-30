@@ -5,6 +5,8 @@ A bidirectional, four-switch buck-boost DC-DC converter circuit designed and sim
 
 ## Circuit Schematic Overview
 
+![Circuit Schematic](image.png)
+
 ### Key Specifications
 * **Input Voltage (VSOURCE):** 5V DC
 * **Inductor (L3):** 33µH
